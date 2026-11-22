@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:feather"
+  },
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Tempest Leggings",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Tempest-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "air_item": true
+      },
+      "minecraft:item_model": "airset:air_leggings",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "airset:air"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GRG",
+    "GNG",
+    " S "
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "R": "minecraft:redstone_block",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_axe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Repulsor Saw",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Chops a 3x3 area of wood",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ironmanset": "repulsor_saw",
+        "ironman_item": true
+      },
+      "minecraft:item_model": "ironmanset:repulsor_saw",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:sharpness": 5
+      }
+    }
+  }
+}

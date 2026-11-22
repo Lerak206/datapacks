@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "mine": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "delta": {
+          "max": -1
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{ironmanset:\"repulsor_saw\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:mine/repulsor_saw"
+  }
+}

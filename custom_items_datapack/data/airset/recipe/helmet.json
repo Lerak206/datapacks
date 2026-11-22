@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:feather"
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Tempest Helmet",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Tempest-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "air_item": true
+      },
+      "minecraft:item_model": "airset:air_helmet",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "asset_id": "airset:air"
+      }
+    }
+  }
+}

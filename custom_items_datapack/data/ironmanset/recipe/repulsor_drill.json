@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " R ",
+    "NS "
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "R": "minecraft:redstone_block",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Repulsor Drill",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Digs a 3x3 area of earth",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ironmanset": "repulsor_drill",
+        "ironman_item": true
+      },
+      "minecraft:item_model": "ironmanset:repulsor_drill",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:silk_touch": 1
+      }
+    }
+  }
+}

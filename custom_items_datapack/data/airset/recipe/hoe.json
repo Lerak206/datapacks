@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    " S",
+    " S"
+  ],
+  "key": {
+    "E": "minecraft:feather",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Tempest Hoe",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Tempest-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "air_item": true
+      },
+      "minecraft:item_model": "airset:air_hoe",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:fortune": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

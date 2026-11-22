@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "C C"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Mark VII Boots",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Stabilizer thrusters",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ironmanset": "mark_boots",
+        "ironman_item": true
+      },
+      "minecraft:item_model": "ironmanset:mark_boots",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:feather_falling": 4,
+        "minecraft:depth_strider": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

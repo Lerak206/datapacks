@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "RRR",
+    " R "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "C": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:spyglass",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Chest Blaster",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Right-click: repulsor pulse (blast enemies away)",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ironmanset": "chest_blaster",
+        "ironman_item": true
+      },
+      "minecraft:item_model": "ironmanset:chest_blaster",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

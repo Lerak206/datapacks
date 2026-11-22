@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    " N",
+    "S "
+  ],
+  "key": {
+    "E": "minecraft:feather",
+    "N": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_spear",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Tempest Spear",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Tempest-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "air_item": true
+      },
+      "minecraft:item_model": "airset:air_spear",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 5,
+        "minecraft:lunge": 2,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

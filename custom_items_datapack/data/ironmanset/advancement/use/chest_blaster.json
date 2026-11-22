@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spyglass"],
+          "predicates": { "minecraft:custom_data": "{ironmanset:\"chest_blaster\"}" }
+        }
+      }
+    }
+  },
+  "rewards": { "function": "ironmanset:use/chest_blaster" }
+}

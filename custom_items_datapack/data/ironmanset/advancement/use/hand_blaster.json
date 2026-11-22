@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spyglass"],
+          "predicates": { "minecraft:custom_data": "{ironmanset:\"hand_blaster\"}" }
+        }
+      }
+    }
+  },
+  "rewards": { "function": "ironmanset:use/hand_blaster" }
+}

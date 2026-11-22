@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "airset:boots"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "airset:once/boots"
+  }
+}

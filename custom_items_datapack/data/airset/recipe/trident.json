@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    " N ",
+    " N "
+  ],
+  "key": {
+    "E": "minecraft:feather",
+    "N": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Tempest Trident",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Tempest-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "air_item": true
+      },
+      "minecraft:item_model": "airset:air_trident",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:impaling": 4,
+        "minecraft:loyalty": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

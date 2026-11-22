@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "G G"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Mark VII Helmet",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Repulsor-grade headgear",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "ironmanset": "mark_helmet",
+        "ironman_item": true
+      },
+      "minecraft:item_model": "ironmanset:mark_helmet",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:projectile_protection": 4,
+        "minecraft:respiration": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

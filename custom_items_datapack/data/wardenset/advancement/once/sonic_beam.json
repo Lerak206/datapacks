@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "wardenset:sonic_beam"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wardenset:once/sonic_beam"
+  }
+}

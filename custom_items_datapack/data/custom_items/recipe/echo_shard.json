@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KK",
+    "KK"
+  ],
+  "key": {
+    "K": "minecraft:sculk"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 2
+  }
+}

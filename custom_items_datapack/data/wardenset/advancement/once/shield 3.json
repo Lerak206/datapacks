@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "wardenset:shield"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wardenset:once/shield"
+  }
+}

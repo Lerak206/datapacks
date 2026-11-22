@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ironmanset:repulsor_pickaxe"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:once/repulsor_pickaxe"
+  }
+}

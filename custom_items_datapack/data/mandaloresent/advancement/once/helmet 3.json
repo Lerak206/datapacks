@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "mandaloresent:helmet"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mandaloresent:once/helmet"
+  }
+}

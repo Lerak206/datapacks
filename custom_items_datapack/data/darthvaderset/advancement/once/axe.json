@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "darthvaderset:axe"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "darthvaderset:once/axe"
+  }
+}

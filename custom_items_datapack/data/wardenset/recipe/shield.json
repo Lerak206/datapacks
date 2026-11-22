@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MEM",
+    "MMM",
+    " M "
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "M": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Warden Shield",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Warden visage guard",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "shield",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_shield",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:unbreaking": 3,
+        "minecraft:mending": 1
+      }
+    }
+  }
+}

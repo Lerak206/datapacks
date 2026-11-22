@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "fireset:leggings"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fireset:once/leggings"
+  }
+}

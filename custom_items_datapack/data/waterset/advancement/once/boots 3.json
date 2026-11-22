@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "waterset:boots"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "waterset:once/boots"
+  }
+}

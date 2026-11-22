@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Warden Chestplate",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Shell of the ancient city",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "chestplate",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_chestplate",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "wardenset:warden"
+      }
+    }
+  }
+}

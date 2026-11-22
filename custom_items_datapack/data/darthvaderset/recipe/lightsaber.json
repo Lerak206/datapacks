@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " R ",
+    " N "
+  ],
+  "key": {
+    "R": "minecraft:redstone_block",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Sith Lightsaber",
+          "color": "dark_red",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Sneak with it: the Force holds your enemies aloft",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "darthvader_item": true
+      },
+      "minecraft:item_model": "darthvaderset:darth_lightsaber",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 5,
+        "minecraft:sweeping_edge": 3,
+        "minecraft:fire_aspect": 2,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

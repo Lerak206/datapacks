@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ETE",
+    " E "
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "T": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Sonic Beam",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Right-click: fire a sonic ray (24 blocks, 10 damage)",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "sonic_beam",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_sonic_beam",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

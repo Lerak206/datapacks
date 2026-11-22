@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Custom Items - textures",
+    "min_format": [
+      97,
+      1
+    ],
+    "max_format": 97
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:fire_charge"
+  },
+  "result": {
+    "id": "minecraft:golden_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Mario Boots",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Mario-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_boots",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:feather_falling": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "marioset:mario"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "darthvaderset:mace"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "darthvaderset:once/mace"
+  }
+}

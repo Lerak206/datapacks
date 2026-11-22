@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Warden Boots",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Sculk-touched soles",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "boots",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_boots",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:feather_falling": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "wardenset:warden"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "earthset:pickaxe"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "earthset:once/pickaxe"
+  }
+}

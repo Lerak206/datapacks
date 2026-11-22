@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "mandaloresent:leggings"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mandaloresent:once/leggings"
+  }
+}

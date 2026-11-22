@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "SSS",
+    " G "
+  ],
+  "key": {
+    "S": "minecraft:green_wool",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Koopa Shell",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Throw it: it always comes back!",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_koopa_shell",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:loyalty": 3,
+        "minecraft:impaling": 4,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

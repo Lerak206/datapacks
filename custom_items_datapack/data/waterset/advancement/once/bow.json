@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "waterset:bow"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "waterset:once/bow"
+  }
+}

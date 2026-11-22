@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "earthset:hoe"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "earthset:once/hoe"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    " H ",
+    " R "
+  ],
+  "key": {
+    "E": "minecraft:moss_block",
+    "H": "minecraft:heavy_core",
+    "R": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Terra Maul",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Terra-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "earth_item": true
+      },
+      "minecraft:item_model": "earthset:earth_mace",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:density": 4,
+        "minecraft:wind_burst": 1,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

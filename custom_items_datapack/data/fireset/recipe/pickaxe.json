@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "E": "minecraft:blaze_rod",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Inferno Pickaxe",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Inferno-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "fire_item": true
+      },
+      "minecraft:item_model": "fireset:fire_pickaxe",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

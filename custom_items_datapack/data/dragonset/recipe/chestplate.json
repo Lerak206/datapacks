@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Dragon Chestplate",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Dragon-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "dragon_item": true
+      },
+      "minecraft:item_model": "dragonset:dragon_chestplate",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "dragonset:dragon"
+      }
+    }
+  }
+}

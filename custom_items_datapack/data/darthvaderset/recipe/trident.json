@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    " N ",
+    " N "
+  ],
+  "key": {
+    "E": "minecraft:redstone_block",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Sith Trident",
+          "color": "dark_red",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Sith-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "darthvader_item": true
+      },
+      "minecraft:item_model": "darthvaderset:darthvader_trident",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:impaling": 4,
+        "minecraft:loyalty": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

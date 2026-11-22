@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "E",
+    "S"
+  ],
+  "key": {
+    "E": "minecraft:fire_charge",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:golden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Mario Sword",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Mario-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_sword",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 5,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

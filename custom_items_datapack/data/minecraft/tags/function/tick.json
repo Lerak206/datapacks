@@ -1,0 +1,17 @@
+{
+  "values": [
+    "dragonset:tick",
+    "marioset:tick",
+    "waterset:tick",
+    "earthset:tick",
+    "fireset:tick",
+    "airset:tick",
+    "darthvaderset:tick",
+    "mandaloresent:tick",
+    "obsidianset:tick",
+    "wardenset:tick",
+    "ironmanset:tick",
+    "custom_items:tick",
+    "custom_items:pvp/tick"
+  ]
+}

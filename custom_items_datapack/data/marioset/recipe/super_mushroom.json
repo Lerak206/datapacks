@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PPP",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:red_mushroom"
+  },
+  "result": {
+    "id": "minecraft:red_mushroom",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Super Mushroom",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Eat: Strength + Absorption",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_super_mushroom",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 2.0
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.0,
+        "animation": "eat",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:strength",
+                "duration": 600,
+                "amplifier": 0
+              },
+              {
+                "id": "minecraft:absorption",
+                "duration": 600,
+                "amplifier": 1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

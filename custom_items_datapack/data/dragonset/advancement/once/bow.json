@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "dragonset:bow"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dragonset:once/bow"
+  }
+}

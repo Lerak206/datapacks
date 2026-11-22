@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    " N",
+    "S "
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_spear",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Dragon Spear",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Dragon-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "dragon_item": true
+      },
+      "minecraft:item_model": "dragonset:dragon_spear",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 5,
+        "minecraft:lunge": 2,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

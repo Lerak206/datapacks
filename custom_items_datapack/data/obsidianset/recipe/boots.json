@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Obsidian Boots",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Obsidian-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "obsidian_item": true
+      },
+      "minecraft:item_model": "obsidianset:obsidian_boots",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:feather_falling": 4,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "obsidianset:obsidian"
+      }
+    }
+  }
+}

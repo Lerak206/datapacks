@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "fireset:crossbow"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fireset:once/crossbow"
+  }
+}

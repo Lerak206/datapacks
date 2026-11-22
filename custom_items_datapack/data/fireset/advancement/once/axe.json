@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "fireset:axe"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "fireset:once/axe"
+  }
+}

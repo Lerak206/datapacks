@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    " H ",
+    " R "
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "H": "minecraft:heavy_core",
+    "R": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Dragon Maul",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Dragon-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "dragon_item": true
+      },
+      "minecraft:item_model": "dragonset:dragon_mace",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:density": 4,
+        "minecraft:wind_burst": 1,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

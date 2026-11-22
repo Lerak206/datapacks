@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    " S",
+    " S"
+  ],
+  "key": {
+    "E": "minecraft:fire_charge",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:golden_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Mario Hoe",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Mario-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_hoe",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:fortune": 3,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

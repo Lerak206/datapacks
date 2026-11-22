@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GPG",
+    " G "
+  ],
+  "key": {
+    "P": "minecraft:brown_mushroom",
+    "G": "minecraft:glistering_melon_slice"
+  },
+  "result": {
+    "id": "minecraft:brown_mushroom",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "1-Up Mushroom",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Eat: Regeneration II + extra hearts",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_one_up_mushroom",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 2.0
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.0,
+        "animation": "eat",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "duration": 300,
+                "amplifier": 1
+              },
+              {
+                "id": "minecraft:health_boost",
+                "duration": 1200,
+                "amplifier": 1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

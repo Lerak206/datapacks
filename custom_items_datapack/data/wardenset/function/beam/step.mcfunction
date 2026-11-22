@@ -1,0 +1,1 @@
+execute unless score @s wardenset_beam_cnt matches 32.. run function wardenset:beam/step_body

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "wardenset:bow"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "wardenset:once/bow"
+  }
+}

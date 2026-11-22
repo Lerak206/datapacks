@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ironmanset:repulsor_cultivator"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:once/repulsor_cultivator"
+  }
+}

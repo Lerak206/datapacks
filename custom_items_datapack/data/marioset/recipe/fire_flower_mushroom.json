@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "POP",
+    " B "
+  ],
+  "key": {
+    "P": "minecraft:red_mushroom",
+    "B": "minecraft:blaze_powder",
+    "O": "minecraft:orange_dye"
+  },
+  "result": {
+    "id": "minecraft:red_mushroom",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Fire Flower Mushroom",
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Eat: Fire Resistance + Glowing",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "mario_item": true
+      },
+      "minecraft:item_model": "marioset:mario_fire_mushroom",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 2.0
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.0,
+        "animation": "eat",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 1200,
+                "amplifier": 0
+              },
+              {
+                "id": "minecraft:glowing",
+                "duration": 600,
+                "amplifier": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Warden Helmet",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Breath of the deep",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "helmet",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_helmet",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:respiration": 3,
+        "minecraft:aqua_affinity": 1,
+        "minecraft:unbreaking": 3
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "asset_id": "wardenset:warden"
+      }
+    }
+  }
+}

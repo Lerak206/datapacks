@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ironmanset:hand_blaster"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:once/hand_blaster"
+  }
+}

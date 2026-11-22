@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "waterset:sword"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "waterset:once/sword"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "waterset:mace"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "waterset:once/mace"
+  }
+}

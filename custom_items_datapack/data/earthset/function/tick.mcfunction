@@ -1,0 +1,2 @@
+# [Terra Set] setbonus: alle 4 armorstukken -> Resistance I
+execute as @a if items entity @s armor.head *[minecraft:custom_data~{earth_item:{}}] if items entity @s armor.chest *[minecraft:custom_data~{earth_item:{}}] if items entity @s armor.legs *[minecraft:custom_data~{earth_item:{}}] if items entity @s armor.feet *[minecraft:custom_data~{earth_item:{}}] run effect give @s minecraft:resistance 2 0 true

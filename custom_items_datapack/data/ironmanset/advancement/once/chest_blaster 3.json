@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ironmanset:chest_blaster"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:once/chest_blaster"
+  }
+}

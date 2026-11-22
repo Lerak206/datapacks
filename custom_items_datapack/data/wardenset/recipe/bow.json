@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " SE",
+    "S E",
+    " SE"
+  ],
+  "key": {
+    "E": "minecraft:echo_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:bow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Warden Bow",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Arrows of fire, endless",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "wardenset": "bow",
+        "warden_item": true
+      },
+      "minecraft:item_model": "wardenset:warden_bow",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:power": 5,
+        "minecraft:flame": 1,
+        "minecraft:infinity": 1,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

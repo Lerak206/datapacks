@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ironmanset:mark_leggings"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ironmanset:once/mark_leggings"
+  }
+}

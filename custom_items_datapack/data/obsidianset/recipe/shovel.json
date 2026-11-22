@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "S",
+    "S"
+  ],
+  "key": {
+    "E": "minecraft:obsidian",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text": "Obsidian Shovel",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Obsidian-set equipment",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "obsidian_item": true
+      },
+      "minecraft:item_model": "obsidianset:obsidian_shovel",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:enchantments": {
+        "minecraft:efficiency": 5,
+        "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

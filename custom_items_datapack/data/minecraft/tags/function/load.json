@@ -10,9 +10,7 @@
     "mandaloresent:load",
     "obsidianset:load",
     "wardenset:load",
-    "wardenset:load_extra",
     "ironmanset:load",
-    "ironmanset:load_extra",
     "custom_items:load"
   ]
 }

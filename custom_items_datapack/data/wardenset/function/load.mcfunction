@@ -33,3 +33,6 @@ execute unless score $global wardenset_shield matches -2147483648.. run scoreboa
 execute unless score $global wardenset_elytra matches -2147483648.. run scoreboard players set $global wardenset_elytra 0
 execute unless score $global wardenset_sonic_beam matches -2147483648.. run scoreboard players set $global wardenset_sonic_beam 0
 tellraw @a {"text": "[wardenset] loaded - unique gear, 1x per world", "color": "aqua"}
+scoreboard objectives add wardenset_beam_used minecraft.used:minecraft.carrot_on_a_stick "sonic beam right-click"
+scoreboard objectives add wardenset_beam_cnt dummy "beam distance counter"
+scoreboard objectives add wardenset_beam_cd dummy "beam cooldown"

@@ -34,3 +34,5 @@ execute unless score $global ironmanset_mark_trident matches -2147483648.. run s
 execute unless score $global ironmanset_mark_shield matches -2147483648.. run scoreboard players set $global ironmanset_mark_shield 0
 execute unless score $global ironmanset_mark_elytra matches -2147483648.. run scoreboard players set $global ironmanset_mark_elytra 0
 tellraw @a {"text": "[ironmanset] loaded - 17 items (17 unique per world)", "color": "gold"}
+scoreboard objectives add ironmanset_blaster_used dummy "blaster right-click"
+scoreboard objectives add ironmanset_beam_cnt dummy "beam distance counter"

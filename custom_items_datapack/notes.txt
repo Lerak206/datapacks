@@ -1,0 +1,3 @@
+==========BUGS==========
+de klik detectie van de sonic beam werkt niet, alle andere items die een klik detectie hebben waarschijnlijk ook niet.
+

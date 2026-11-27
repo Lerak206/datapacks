@@ -1,3 +1,2 @@
 # wardenset:impl/sonic_beam — geeft het item, zonder lock-check
-give @s minecraft:carrot_on_a_stick[minecraft:custom_name='"Sonic Beam"',minecraft:lore=['"Right-click: fires Sonic Beam — 10 damage (bypasses armor/shield)"','"Craftable once per world"'],minecraft:item_model="wardenset:warden_sonic_beam",minecraft:enchantment_glint_override=true,minecraft:custom_data={wardenset:"sonic_beam",warden_item:true}]
-tellraw @s {"text":"[wardenset] Sonic Beam uitgegeven","color":"aqua"}
+give @s minecraft:carrot_on_a_stick[minecraft:custom_name="Sonic Beam",minecraft:lore=["Right-click: fires Sonic Beam — 10 damage (bypasses armor/shield)","Craftable once per world"],minecraft:item_model="wardenset:warden_sonic_beam",minecraft:enchantment_glint_override=true,minecraft:custom_data={wardenset:"sonic_beam",warden_item:true},minecraft:use_cooldown={seconds:2,cooldown_group:"wardenset:sonic_beam"}]
